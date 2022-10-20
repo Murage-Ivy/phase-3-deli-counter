@@ -29,8 +29,8 @@ def now_serving(current_people_in_line)
     puts "There is nobody waiting to be served!"
 
   else
-    puts "Currently serving #{served_person = current_people_in_line.shift}."
+    puts "Currently serving #{current_people_in_line.shift}."
 
   end
-  
+
 end
